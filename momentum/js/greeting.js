@@ -19,4 +19,5 @@ function getTimeOfDay() {
 }
 
 export { showGreeting };
+export { getTimeOfDay };
 export default name;

@@ -1,5 +1,6 @@
 import { showTime } from "./time.js";
 import { showGreeting } from "./greeting.js";
+import { setBg } from "./imageSlider.js";
 import name from "./greeting.js";
 
 function setLocalStorage() {
@@ -18,3 +19,4 @@ name.addEventListener('change', setLocalStorage);
 
 showTime();
 showGreeting();
+setBg();
