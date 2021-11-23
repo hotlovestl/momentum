@@ -2,6 +2,7 @@ import { showTime } from "./time.js";
 import { showGreeting } from "./greeting.js";
 import { setBg } from "./imageSlider.js";
 import { getWeather } from "./weather.js";
+import { getQuotes } from "./quotes.js";
 import name from "./greeting.js";
 import city from "./weather.js";
 
@@ -28,3 +29,4 @@ showTime();
 showGreeting();
 setBg();
 getWeather();
+getQuotes();
