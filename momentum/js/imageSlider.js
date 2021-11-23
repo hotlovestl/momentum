@@ -16,6 +16,7 @@ function getRandomNum(min, max) {
 function setBg() {
   if(bgNum < 10) bgNum = "0" + bgNum;
   const timeOfDay = getTimeOfDay();
+  
   const img = new Image();
   img.src = `https://raw.githubusercontent.com/rolling-scopes-school/stage1-tasks/assets/images/${timeOfDay}/${bgNum}.jpg`;
   img.onload = () => { document.body.style.backgroundImage = `url('${img.src}')` }; 
