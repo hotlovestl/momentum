@@ -19,6 +19,7 @@ function setBg() {
 
   const img = new Image();
   img.src = `https://raw.githubusercontent.com/rolling-scopes-school/stage1-tasks/assets/images/${timeOfDay}/${bgNum}.jpg`;
+  // img.src = `https://github.com/hotlovestl/stage1-tasks/blob/assets/images/${timeOfDay}/${bgNum}.jpg`;
   img.onload = () => { document.body.style.backgroundImage = `url('${img.src}')` }; 
 }
 
@@ -37,5 +38,4 @@ function getSlidePrev() {
 slideNext.addEventListener('click', getSlideNext);
 slidePrev.addEventListener('click', getSlidePrev);
 
-export { setBg };
-export { getRandomNum };
+export { setBg, getRandomNum };

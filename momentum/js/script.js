@@ -3,6 +3,7 @@ import { showGreeting } from "./greeting.js";
 import { setBg } from "./imageSlider.js";
 import { getWeather } from "./weather.js";
 import { getQuotes } from "./quotes.js";
+import { playAudio } from "./audioPlayer.js";
 import name from "./greeting.js";
 import city from "./weather.js";
 

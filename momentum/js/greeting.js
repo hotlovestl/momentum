@@ -18,6 +18,5 @@ function getTimeOfDay() {
   else return 'night';
 }
 
-export { showGreeting };
-export { getTimeOfDay };
+export { showGreeting, getTimeOfDay };
 export default name;

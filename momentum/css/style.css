@@ -69,6 +69,10 @@ body {
   color: #C5B358;
 }
 
+.current-audio {
+  color: aqua;
+}
+
 .player-icon,
 .slider-icon,
 .change-quote {
